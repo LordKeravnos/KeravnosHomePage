@@ -1,0 +1,20 @@
+*{
+    color: #fff;
+}
+
+body{
+    background-color: #040404;
+}
+
+.headerTitle{
+    position: center;
+}
+.bodyGroupOne{
+    display:flex;
+    flex:wrap;
+    flex-direction: row;
+}
+.groupOneBoxOne .groupOneBoxTwo{
+    background-color: #d3d3d3;
+    padding:5%;
+}
