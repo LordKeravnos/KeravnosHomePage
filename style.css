@@ -11,10 +11,12 @@ body{
 }
 .bodyGroupOne{
     display:flex;
-    flex:wrap;
+    flex-wrap:wrap;
     flex-direction: row;
 }
-.groupOneBoxOne .groupOneBoxTwo{
-    background-color: #d3d3d3;
+.bodyGroupOne div{
+    background-color: grey;
     padding:5%;
+    border:0 2% 2% 0;
+    border-color:#040404;
 }
